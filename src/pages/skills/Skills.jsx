@@ -6,6 +6,7 @@ import tailwind from './photos/tailwind.png'
 import nodejs from './photos/nodejs.png'
 import express from './photos/express.png'
 import mongodb from './photos/mongodb.png'
+import reactphoto from './photos/react.png'
 
 export default function Skills() {
   return (
@@ -23,6 +24,9 @@ export default function Skills() {
       </div>
       <div className='border border-white w-32 h-30 flex items-center justify-center p-1 rounded-md'>
          <img src={tailwind} className='w-32  h-32 rounded-md' alt="" />
+      </div>
+      <div className='border border-white w-32 h-30 flex items-center justify-center p-1 rounded-md'>
+         <img src={reactphoto} className='w-32  h-32 rounded-md' alt="" />
       </div>
       <div className='border border-white w-32 h-30 flex items-center justify-center p-1 rounded-md'>
          <img src={nodejs} className='w-32  h-32 rounded-md' alt="" />

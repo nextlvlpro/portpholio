@@ -31,10 +31,12 @@ export default function TheNav() {
                 arrowIcon={false}
                 
                     dismissOnClick={true}>
-                    <Dropdown.Item>Dashboard</Dropdown.Item>
-                    <Dropdown.Item>Settings</Dropdown.Item>
-                    <Dropdown.Item>Earnings</Dropdown.Item>
-                    <Dropdown.Item>Sign out</Dropdown.Item>
+                    <Dropdown.Item as={Link} to={'/'}>Home</Dropdown.Item>
+                    <Dropdown.Item as={Link} to={'/about'}>About</Dropdown.Item>
+                    <Dropdown.Item as={Link} to={'/contact'}>Contact</Dropdown.Item>
+                    <Dropdown.Item as={Link} to={'projects'}>Projects</Dropdown.Item>
+                    <Dropdown.Item as={Link} to={'/skills'}>skills</Dropdown.Item>
+                    
                 </Dropdown>
             </div>
 

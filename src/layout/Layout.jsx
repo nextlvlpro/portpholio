@@ -1,5 +1,5 @@
 import React from 'react'
-import TheNav from './navbar/theNav'
+import TheNav from './navbar/TheNav'
 import { Outlet } from 'react-router-dom'
 
 export default function Layout() {
