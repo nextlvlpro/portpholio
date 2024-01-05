@@ -14,7 +14,7 @@ export default function Hero() {
       
       <div className=' text-yellow-300 font-semibold'>
       <Typewriter cursorColor='red' 
-    words={[' Bhanu Sharma','Front-End Web Devloper','Back-End Web Devloper', ' Full Stck Web Devloper ','']}
+    words={[' Bhanu Sharma','Front-End Web Devloper','Back-End Web Devloper', ' Full Stack Web Devloper']}
     loop={true}
     cursor={true} 
     cursorStyle='_'
