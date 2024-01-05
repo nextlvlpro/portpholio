@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='p-4 flex flex-col items-center justify-center gap-2 text-left'>
+    <div className='p-4 flex flex-col items-start justify-start gap-2'>
       <div className='text-white text-3xl font-bold mb-5'>
         Glimpse About Me
       </div>
@@ -12,7 +12,7 @@ export default function About() {
           Born
         </div>
         <div className='text-white text-lg font-semibold'>
-          in small town Solan in Himachal Pradesh, India. Moved to home town and lived in small and piecefull village throughout my school Days. Leanred the true meaaning of hardwork from people around me.
+          in small town Solan in Himachal Pradesh, India. Moved to home town and lived in small village throughout my school Days. Leanred the true meaaning of hardwork from people around me.
         </div>
       </div>
 
@@ -39,7 +39,7 @@ export default function About() {
           Strong pull toward Programing
         </div>
         <div className='text-white text-lg font-semibold'>
-          While not having education about programing there was somthing that always attracted me toward stuff related to tech. Some of it might be because of my interst in problem solving. i might not be best in problem soilving but i try my best.
+          While not having education about programing there was something that always attracted me toward stuff related to tech. Some of it might be because of my interst in problem solving. i might not be best in problem soilving but i try my best.
           It all started when i came in contact with computer in school. While i choose or rather my parent choose a diffrent education field for me, i Was always up to date with new tech news. My love towrds computers also helped in me landing my current job insted of my collage education.
         </div>
       </div>
